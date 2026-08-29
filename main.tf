@@ -17,7 +17,7 @@ provider "azurerm" {
 
 variable "rg_count" {
   type    = number
-  default = 3
+  default = 4
 }
 
 resource "azurerm_resource_group" "rg_count" {
